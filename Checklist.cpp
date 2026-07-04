@@ -132,6 +132,11 @@ while(getline(file, line))
     cout << line << endl;
 }
 }
+case 5:
+{
+cout << "Goodbye " << endl;
+break;
+}
 default:
 cout << "invalid choice \n" << endl;
 break;
